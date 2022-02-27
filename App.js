@@ -15,9 +15,9 @@ if (!firebase.apps.length) {
 }
 
 const AppSwitchNavigator = createSwitchNavigator({
-    LoadingScreen: LoadingScreen,
-    LoginScreen: LoginScreen,
-    DashboardScreen: DashboardScreen
+   
+    
+    
 })
 
 const AppNavigator = createAppContainer(AppSwitchNavigator)
